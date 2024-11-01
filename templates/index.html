@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>LOSTGIT</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='/vendors/themify-icons/css/themify-icons.css') }}">
+
+ <!-- Vendor CSS Files -->
+ <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+ <link href="static/vendor/aos/aos.css" rel="stylesheet">
+ <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+ <!-- Main CSS File -->
+ <link href="static/css/main.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='/img/favicon-f.png') }}" rel="icon">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="#" class="logo d-flex align-items-center">
+        <h1 class="sitename">LOSTGIT</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#profile" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="profile" class="hero section dark-background">
+      <img src="{{ url_for('static', filename='/imgs/nagita-ls.jpg') }}" alt="" data-aos="fade-in">
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Elizabeth Nagita P.S.H Zachawerus</h2>
+        <p><span class="typed" data-typed-items="Student, Coffee Shop Owner, Mining Company Director "></span></p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="{{ url_for('static', filename='/imgs/nagita-po.jpg') }}" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Elizabeth Nagita P.S.H Zachawerus</span></p>
+                <p><strong>Profile: </strong> <span>Mahasiswa Universitas Amikom Yogyakarta</span></p>
+                <p><strong>Email: </strong> <span>nagitazachawerus@students.amikom.ac.id</span></p>
+                <p><strong>Phone: </strong> <span>0857-5738-5568</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>🛡️ Keamanan Siber</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>💻 Pemrograman Ceria</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>🌐 Pengembangan Web</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>🔍 Analisis Data</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                🌸 Hai! Aku adalah penikmat kopi sejati yang selalu mencari aroma kopi yang bikin tenang! 
+                Oh, dan kalau ada ice cream rasa white chocolate, aku nggak akan bisa nolak! 🍦🤍
+              </p>
+              <p>
+                🌅 Aku suka banget dengan senja, saat matahari pelan-pelan turun dan warna langit berubah magis. 
+                Plus, hujan adalah teman terbaikku! Suara gemericik hujan selalu jadi musik alami yang bikin hati adem. ☔️💛
+              </p>
+              <p>
+                Dan saat malam tiba, nggak ada yang lebih seru daripada jalan-jalan menikmati citylight yang gemerlap! ✨🏙️
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Elizabeth Nagita P.S.H Zachawerus</h4>
+              <p><em>si penjaga keamanan siber yang selalu siap melindungi dunia digital! 
+                Dengan pengalaman lebih dari 4 tahun, aku ahli dalam menganalisis dan 
+                mengamankan sistem dari berbagai ancaman yang mengintai. Dari memecahkan kode hingga 
+                menjaga data tetap aman, aku suka tantangan dan siap menjaga keamanan dengan senyum! 😄🔒</em></p>
+              <ul>
+                <li>Yogyakarta, Indonesia</li>
+                <li>085757385568</li>
+                <li>nagitazachawerus@students.amikom.ac.id</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+
+            <div class="resume-item">
+              <h4>Bachelor of Computer Engginering</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Amikom University Yogyakarta, Yogyakarta, Indonesia</em></p>
+              <p>Sedang berpetualang di dunia komputer sambil menggali ilmu dan menemukan 
+                bug-bug lucu! Dari merakit kode hingga memecahkan masalah, setiap hari adalah 
+                tantangan baru yang bikin aku semakin semangat! 🌟💻</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>🌟 Pengaman Siber</h4>
+              <h5>📅 2022 - Sekarang</h5>
+              <p><em>📍 Yogyakarta, Indonesia </em></p>
+              <ul>
+                <li>Menjadi superhero digital yang siap melindungi data dari berbagai ancaman! 
+                  Dari memantau sistem hingga melakukan penanggulangan insiden, aku berjuang melawan 
+                  hacker jahat dengan senyuman dan semangat yang menggebu! 🦸‍♀️💻</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>💻 Pengembang Aplikasi Ceria</h4>
+              <h5>📅 2022 - 2023</h5>
+              <p><em>📍 Jakarta, Indonesia</em></p>
+              <ul>
+                <li>Berkarya dalam dunia pemrograman dengan menciptakan aplikasi yang bikin hidup lebih mudah 
+                  (dan lebih lucu)! Dari menulis kode hingga debugging, setiap baris kode adalah petualangan yang penuh tawa dan keajaiban! 🌈✨</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>🛠️ Asisten Teknologi Lucu</h4>
+              <h5>📅 2022 - 2023</h5>
+              <p><em>📍 Surabaya, Indonesia</em></p>
+              <ul>
+                <li>Membantu tim dalam membangun infrastruktur IT yang kuat dan aman, sambil menyelipkan humor di setiap rapat! 
+                  Berkolaborasi dengan rekan-rekan untuk memastikan semua sistem berjalan mulus dan menyenangkan! 😂🔧
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section id="stats" class="stats section accent-background">
+
+      <img src="static/imgs/nagita-ls.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="204" data-purecounter-duration="0" class="purecounter">232</span>
+              <p>Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="248" data-purecounter-duration="0" class="purecounter">521</span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1310" data-purecounter-duration="0" class="purecounter">1453</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="0" class="purecounter">32</span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    
+    <section id="contact" class="contact section">
+
+    
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>✨ Punya pertanyaan, ide lucu, atau hanya ingin berbagi cerita? Jangan ragu untuk menghubungiku! Siap sedia untuk menjawab dengan senyum lebar dan semangat menggebu! 🌈💌</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Jl. Ringrood Utara, Sleman, Yogyakarta, Indonesia</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>nagitazachawerus@students.amikom.ac.id</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">LOSTGIT</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/nagitazh/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in//"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href= "https://www.bing.com/ck/a?!&&p=9c28c7d8bdeed41786df3a20e64e45c61e1144341bd423701f43a8446e828bbcJmltdHM9MTczMDMzMjgwMA&ptn=3&ver=2&hsh=4&fclid=37c840cc-e67c-61d7-2e82-52b9e72a6030&u=a1L3ZpZGVvcy9zZWFyY2g_cT1saXJpaytsYWd1K2lmK2V2ZXIreW91JTI3cmUraW4rbXkrYXJtcythZ2Fpbit5b3V0dWJlJnFzPW4mc3A9LTEmbHE9MCZwcT1saXJpaytsYWd1K2lmK2V2ZXIreW91JTI3cmUraW4rbXkrYXJtcythZ2Fpbit5b3V0dWImc2M9MC00OSZzaz0mY3ZpZD1FQUYwNjkxMTNFNUI0NEU0QjVDRjhDMTkyQjlBODQ1RSZnaHNoPTAmZ2hhY2M9MCZnaHBsPSZydT0lMmZzZWFyY2glM2ZxJTNkbGlyaWslMmJsYWd1JTJiaWYlMmJldmVyJTJieW91JTI1MjdyZSUyYmluJTJibXklMmJhcm1zJTJiYWdhaW4lMmJ5b3V0dWJlJTI2cXMlM2RuJTI2Zm9ybSUzZFFCUkUlMjZzcCUzZC0xJTI2bHElM2QwJTI2cHElM2RsaXJpayUyYmxhZ3UlMmJpZiUyYmV2ZXIlMmJ5b3UlMjUyN3JlJTJiaW4lMmJteSUyYmFybXMlMmJhZ2FpbiUyYnlvdXR1YiUyNnNjJTNkMC00OSUyNnNrJTNkJTI2Y3ZpZCUzZEVBRjA2OTExM0U1QjQ0RTRCNUNGOEMxOTJCOUE4NDVFJTI2Z2hzaCUzZDAlMjZnaGFjYyUzZDAlMjZnaHBsJTNkJnZpZXc9ZGV0YWlsJm1tc2NuPXZ3cmMmbWlkPUM2NDVBMUYyOTU4RDAwNDE2MTE1QzY0NUExRjI5NThEMDA0MTYxMTUmRk9STT1XUlZPUkM&ntb=1">Elizabeth Nagita Zachawerus</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/typed.js/typed.umd.js"></script>
+  <script src="static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="static/js/main.js"></script>
+
+
+</body>
+
+</html>
